@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>netty-helloworld</module>
+        <module>byte-buff</module>
     </modules>
 
     <dependencies>
@@ -21,21 +22,6 @@
     </dependencies>
 
     <repositories>
-    <repository>
-        <id>maven</id>
-        <name>Nexus Public Repository</name>
-        <url>http://maven.weimob.com/content/groups/public/</url>
-        <releases>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </releases>
-        <snapshots>
-            <enabled>false</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </snapshots>
-    </repository>
 
         <repository>
             <id>aliyun</id>
@@ -45,7 +31,7 @@
                 <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </repository>
 
